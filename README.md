@@ -12,7 +12,20 @@
   </p>
 </div>
 
-Swapper is a powerful meta-aggregator project by Astrolab Finance, aimed at liquidity and bridge meta-aggregation. It is designed to facilitate and optimize the swapping process across various liquidity sources such as 1inch, 0x, KyberSwap, ParaSwap, Li.Fi, and Socket.
+Swapper is Astrolab's liquidity meta-aggregator, powering all of its monochain and cross-chain swaps.
+It uses liquidity and bridge aggregators. The DEX meta-aggregation is heavily inspired by [LlamaSwap](https://swap.defillama.com/)'s work [available here](https://github.com/LlamaSwap/).
+
+## Supported Aggregators
+
+### Bridges+Liquidity
+- [Li.Fi](https://li.fi/)
+- [Socket](https://socket.tech/)
+
+### Liquidity
+- [1inch](https://1inch.io/)
+- [0x](https://0x.org/)
+- [KyberSwap](https://kyberswap.com/)
+- [ParaSwap](https://www.paraswap.io/)
 
 ## Features
 
@@ -20,7 +33,7 @@ Swapper is a powerful meta-aggregator project by Astrolab Finance, aimed at liqu
 
 Located in [`./src/index.ts`](https://github.com/AstrolabFinance/swapper/blob/main/src/index.ts), the Swapper SDK is a client code that allows the generation of bridge and/or swap transactionRequests or callData from the desired Aggregator. It can be used off-chain with libraries such as ethers or ethers-rs, or on-chain directly by passing the callData as a parameter to the Swapper.sol contract on the desired chain.
 
-#### Supported Aggregators
+#### Aggregators Clients
 
 - [1inch](https://github.com/AstrolabFinance/swapper/blob/main/src/OneInch/index.ts)
 - [0x](https://github.com/AstrolabFinance/swapper/blob/main/src/ZeroX/index.ts)
