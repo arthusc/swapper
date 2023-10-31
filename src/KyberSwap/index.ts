@@ -144,7 +144,10 @@ export async function getCallData(o: ISwapperParams): Promise<IQuoteData> {
         slippageTolerance: o.maxSlippage ?? 0.01,
         deadline: Math.floor(Date.now() / 1000) + 300, // 5min,
       }),
-      headers: { "x-client-id": params.source! },
+      headers: {
+        "x-client-id": params.source!,
+        "Content-Type": "application/json",
+      },
     },
   );
   return await res.json();

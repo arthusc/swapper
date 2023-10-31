@@ -212,7 +212,10 @@ export async function getCallData(o: ISwapperParams): Promise<string> {
   const res = await fetch(`${apiRoot}/build-tx`,
     {
       method: "POST",
-      headers: { "API-KEY": apiKey },
+      headers: {
+        "API-KEY": apiKey,
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({ route: quote.routes[0] }),
     });
   return (await res.json())?.result?.txData ?? "";
