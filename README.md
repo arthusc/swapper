@@ -1,9 +1,5 @@
-# Swapper
-
-## by [`Astrolab`](https://astrolab.fi)
-
-<div align="left">
-  <img height="210x" src="./swapper.png" />
+<div align="center">
+  <img height="200x" src="./swapper.png" />
   <p>
     <!-- <a href="https://github.com/AstrolabFinance/swapper/actions"><img alt="Build Status" src="https://github.com/AstrolabFinance/swapper/actions/workflows/tests.yaml/badge.svg" /></a> -->
     <a href="https://docs.astrolab.fi"><img alt="Astrolab Website" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
@@ -11,6 +7,8 @@
     <a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/github/license/AstrolabFinance/swapper?color=blueviolet" /></a>
   </p>
 </div>
+
+# Swapper by [`Astrolab`](https://astrolab.fi)
 
 Swapper is a powerful meta-aggregator project by Astrolab Finance, aimed at liquidity and bridge meta-aggregation. It is designed to facilitate and optimize the swapping process across various liquidity sources such as 1inch, 0x, KyberSwap, ParaSwap, Li.Fi, and Socket.
 
