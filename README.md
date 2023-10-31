@@ -31,8 +31,8 @@ Don't hesitate to reach out or submit pull requests with missing aggregators ada
 - [KyberSwap](https://kyberswap.com/) `untested`
 - [ParaSwap](https://www.paraswap.io/) `untested`
 
-### To be implemented:
-- [CowSwap](https://swap.cow.fi/).
+### To be implemented
+- [CowSwap](https://swap.cow.fi/)
 - [DeBridge's DLN](https://app.dln.trade/)
 - [OpenOcean](https://openocean.finance/)
 
